@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,SAAS;EACP,gBAAgB,EAAE,GAAG;;AACrB,sCAA8B;EAC5B,OAAO,EAAE,eAAc",
+"sources": ["../sass/general/general.sass"],
+"names": [],
+"file": "style.css"
+}

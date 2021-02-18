@@ -1,0 +1,8 @@
+.add-file {
+  background-color: red;
+}
+.add-file + .form-control[type="file"] {
+  display: none !important;
+}
+
+/*# sourceMappingURL=style.css.map */
