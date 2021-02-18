@@ -1,8 +1,59 @@
-.add-file {
+html {
+  font-size: 24px;
+}
+
+body {
+  font-family: "HelveticaNeue-CondensedRegular", Arial, sans-serif;
+  font-size: 1rem;
+  color: #000000;
+  line-height: 1.15;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #FFFFFF;
+}
+
+.dapp-form {
+  padding: 104px 48px;
+}
+.dapp-form .form-group {
+  margin-bottom: 30px;
+}
+.dapp-form .add-file {
   background-color: red;
 }
-.add-file + .form-control[type="file"] {
+.dapp-form .add-file + .form-control[type="file"] {
   display: none !important;
+}
+.dapp-form input.form-control, .dapp-form textarea.form-control {
+  border: 1px solid #BBBABA;
+  border-radius: 20px;
+  padding: 16px 12px;
+  font-style: italic;
+}
+.dapp-form .form-group label {
+  margin-bottom: 10px;
+}
+.dapp-form .form-select {
+  border-radius: 20px;
+  font-size: 20px;
+  line-height: 1.15;
+  padding: 26px 20px;
+}
+.dapp-form .form-select option {
+  margin-bottom: 15px;
+}
+
+.dapp_category + .bootstrap-select {
+  width: 100% !important;
+}
+.dapp_category .btn-light {
+  border-radius: 20px;
+  border: 1px solid #BBBABA;
+  background-color: #FFFFFF;
+}
+.dapp_category .dropdown-toggle::after {
+  color: #BBBABA;
 }
 
 /*# sourceMappingURL=style.css.map */

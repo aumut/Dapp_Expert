@@ -1,0 +1,35 @@
+.dapp-form
+  padding: 104px 48px
+  .form-group
+    margin-bottom: 30px
+
+  .add-file
+    background-color: red
+    & + .form-control[type="file"]
+      display: none!important
+
+  input.form-control, textarea.form-control
+    border: 1px solid $form_br_col
+    border-radius: $form_br_rad
+    padding: 16px 12px
+    font-style: italic
+  .form-group
+    label
+      margin-bottom: 10px
+  .form-select
+    border-radius: $form_br_rad
+    font-size: $form_select_fs
+    line-height: 1.15
+    padding: 26px 20px
+    option
+      margin-bottom: 15px
+
+.dapp_category
+  & + .bootstrap-select
+    width: 100% !important
+  .btn-light
+    border-radius: $form_br_rad
+    border: 1px solid $form_br_col
+    background-color: #FFFFFF
+  .dropdown-toggle::after
+    color: $form_br_col

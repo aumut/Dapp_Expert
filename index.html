@@ -21,8 +21,8 @@
                     </div>
                     <div class="col-sm-6 col-xs-12">
                         <div class="form-group">
-                            <label for="dapp_category">Category</label>
-                            <select id="dapp_category" class="selectpicker">
+                            <label for="dapp_category" class="dapp_category">Category</label>
+                            <select id="dapp_category" class="selectpicker dapp_category">
                                 <option>Banner</option>
                                 <option>Collectibles</option>
                                 <option>DeFi</option>
@@ -43,21 +43,28 @@
                         </div>
                     </div>
                     <div class="col-sm-6 col-xs-12">
-                        <label for="dapp_lang">Language:</label>
-                        <select id="dapp_lang" class="form-select" multiple aria-label="multiple select example">
-                            <option selected>Open this select menu</option>
-                            <option value="1">English</option>
-                            <option value="2">Japanese</option>
-                            <option value="3">Chinese</option>
-                            <option value="3">Russian</option>
-                        </select>
+                        <div class="form-group">
+                            <label for="dapp_lang">Language:</label>
+                            <select id="dapp_lang" class="form-select" multiple aria-label="multiple select example">
+                                <option selected>Open this select menu</option>
+                                <option value="1">English</option>
+                                <option value="2">Japanese</option>
+                                <option value="3">Chinese</option>
+                                <option value="3">Russian</option>
+                            </select>
+                        </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-sm-6 col-xs-12">
                         <div class="form-group">
-                            <label for="dapp_blockchain">Blockchain:</label>
-                            <input type="text" class="form-control" id="dapp_blockchain">
+                            <label for="dapp_blockchain" class="dapp_category">Blockchain:</label>
+                            <select id="dapp_blockchain" class="selectpicker dapp_category">
+                                <option>Banner</option>
+                                <option>Collectibles</option>
+                                <option>DeFi</option>
+                                <option>High Risk</option>
+                            </select>
                         </div>
                         <div class="form-group">
                             <label for="dapp_paper_link">White paper link:</label>

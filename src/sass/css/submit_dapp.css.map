@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,UAAU;EACR,OAAO,EAAE,UAAU",
+"sources": ["../content/submit_dapp.sass"],
+"names": [],
+"file": "submit_dapp.css"
+}
