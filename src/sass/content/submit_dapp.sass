@@ -1,6 +1,8 @@
 .dapp-form
   padding: 4.3em 2em
-  .form-group
+  +tablet-down
+    padding: 1em 0.25em
+  .form-group, .dapp-group
     margin-bottom: 1.25em
 
   .add-file
@@ -10,25 +12,68 @@
     max-width: 6.66em
     text-align: center
     & + .form-control[type="file"]
-      display: none!important
+      //display: none!important
 
-  input.form-control, textarea.form-control
+  .form-control
+    &:focus, &:active
+      border: 1px solid #0AA5FC
+      outline: none
+      box-shadow: none
+
+  input.form-control, textarea.form-control, .dapp-val, .descr-text
     border: 1px solid $form_br_col
     border-radius: $form_br_rad
-    padding: 0.66em 0.5em
+    padding: $input_pt $input_pl
     font-style: italic
-  .form-group
+    color: $main_col
+    font-size: 1em
+    line-height: $lineHeight_body
+    font-weight: $fw_body
+    text-decoration: none
+    overflow: hidden
+    +tablet-down
+      padding: $input_pt_mob $input_pl_mob
+
+  .dapp-val
+    display: flex
+    justify-content: center
+    flex-direction: column
+    width: 100%
+    min-height: 2.5365em
+    background-color: $col_grey
+    list-style: none
+    +tablet-down
+      min-height: 1.62em
+
+
+  .form-group, .dapp-group
     label
       margin-bottom: 10px
-  .form-select
+  .form-select, .dapp-val-select
     border-radius: $form_br_rad
     font-size: $form_select_fs
     line-height: 1.15
-    padding: 1.08em 0.83em
-    option
+    padding: 0.5em
+    justify-content: flex-start
+    option, li
       margin-bottom: 0.625em
+      padding: 0.25em 0.4em
       &:last-child
         margin-bottom: 0
+    option[selected], option.selected
+      background-color: rgba(10, 165, 252, 0.3)
+
+
+.bootstrap-select
+  .dropdown-toggle
+    .filter-option-inner-inner
+      font-style: italic
+
+  .dropdown-menu.inner
+    font-size: 0.83em
+
+  .dropdown-item
+    padding: $input_pt $input_pl
 
 .dapp_category
   & + .bootstrap-select
@@ -37,6 +82,9 @@
     border-radius: $form_br_rad
     border: 1px solid $form_br_col
     background-color: #FFFFFF
+    padding: $input_pt $input_pl
+    +tablet-down
+      padding: $input_pt_mob $input_pl_mob
   .dropdown-toggle::after
     color: $form_br_col
 
@@ -47,5 +95,10 @@
   height: 6.25em
   resize: none
 
+  &:not(textarea)
+    background-color: $col_grey
+    overflow-y: scroll!important
+
 .pb-30px
   padding-bottom: 1.25em !important
+

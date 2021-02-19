@@ -12,11 +12,21 @@ body {
   height: 100vh;
   background-color: #FFFFFF;
 }
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 20px;
+  }
+}
 
 .dapp-form {
   padding: 4.3em 2em;
 }
-.dapp-form .form-group {
+@media screen and (max-width: 768px) {
+  .dapp-form {
+    padding: 1em 0.25em;
+  }
+}
+.dapp-form .form-group, .dapp-form .dapp-group {
   margin-bottom: 1.25em;
 }
 .dapp-form .add-file {
@@ -26,29 +36,71 @@ body {
   max-width: 6.66em;
   text-align: center;
 }
-.dapp-form .add-file + .form-control[type="file"] {
-  display: none !important;
+.dapp-form .form-control:focus, .dapp-form .form-control:active {
+  border: 1px solid #0AA5FC;
+  outline: none;
+  box-shadow: none;
 }
-.dapp-form input.form-control, .dapp-form textarea.form-control {
+.dapp-form input.form-control, .dapp-form textarea.form-control, .dapp-form .dapp-val, .dapp-form .descr-text {
   border: 1px solid #BBBABA;
   border-radius: 0.83em;
   padding: 0.66em 0.5em;
   font-style: italic;
+  color: #000000;
+  font-size: 1em;
+  line-height: 1.15;
+  font-weight: 400;
+  text-decoration: none;
+  overflow: hidden;
 }
-.dapp-form .form-group label {
+@media screen and (max-width: 768px) {
+  .dapp-form input.form-control, .dapp-form textarea.form-control, .dapp-form .dapp-val, .dapp-form .descr-text {
+    padding: 0.2em 0.7em;
+  }
+}
+.dapp-form .dapp-val {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  min-height: 2.5365em;
+  background-color: #E5E5E5;
+  list-style: none;
+}
+@media screen and (max-width: 768px) {
+  .dapp-form .dapp-val {
+    min-height: 1.62em;
+  }
+}
+.dapp-form .form-group label, .dapp-form .dapp-group label {
   margin-bottom: 10px;
 }
-.dapp-form .form-select {
+.dapp-form .form-select, .dapp-form .dapp-val-select {
   border-radius: 0.83em;
   font-size: 0.83em;
   line-height: 1.15;
-  padding: 1.08em 0.83em;
+  padding: 0.5em;
+  justify-content: flex-start;
 }
-.dapp-form .form-select option {
+.dapp-form .form-select option, .dapp-form .form-select li, .dapp-form .dapp-val-select option, .dapp-form .dapp-val-select li {
   margin-bottom: 0.625em;
+  padding: 0.25em 0.4em;
 }
-.dapp-form .form-select option:last-child {
+.dapp-form .form-select option:last-child, .dapp-form .form-select li:last-child, .dapp-form .dapp-val-select option:last-child, .dapp-form .dapp-val-select li:last-child {
   margin-bottom: 0;
+}
+.dapp-form .form-select option[selected], .dapp-form .form-select option.selected, .dapp-form .dapp-val-select option[selected], .dapp-form .dapp-val-select option.selected {
+  background-color: rgba(10, 165, 252, 0.3);
+}
+
+.bootstrap-select .dropdown-toggle .filter-option-inner-inner {
+  font-style: italic;
+}
+.bootstrap-select .dropdown-menu.inner {
+  font-size: 0.83em;
+}
+.bootstrap-select .dropdown-item {
+  padding: 0.66em 0.5em;
 }
 
 .dapp_category + .bootstrap-select {
@@ -58,6 +110,12 @@ body {
   border-radius: 0.83em;
   border: 1px solid #BBBABA;
   background-color: #FFFFFF;
+  padding: 0.66em 0.5em;
+}
+@media screen and (max-width: 768px) {
+  .dapp_category .btn-light {
+    padding: 0.2em 0.7em;
+  }
 }
 .dapp_category .dropdown-toggle::after {
   color: #BBBABA;
@@ -70,6 +128,10 @@ body {
 .descr-text {
   height: 6.25em;
   resize: none;
+}
+.descr-text:not(textarea) {
+  background-color: #E5E5E5;
+  overflow-y: scroll !important;
 }
 
 .pb-30px {
