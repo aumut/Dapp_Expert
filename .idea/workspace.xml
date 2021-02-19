@@ -11,19 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="020d89c4-15be-4663-9885-a7d09dd47bda" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fonts/HelveticaNeue Condensed - Regular/HelveticaNeue-CondensedRegular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/HelveticaNeue Condensed - Regular/HelveticaNeue-CondensedRegular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/HelveticaNeue Condensed - Regular/HelveticaNeue-CondensedRegular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/HelveticaNeue Condensed - Regular/HelveticaNeue-CondensedRegular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/content/submit_dapp.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/fonts/fonts.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/general/general.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/general/general.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/content/submit_dapp.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/content/submit_dapp.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/general/var.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/general/var.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613638436271</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Стилизация форм документа">
+      <created>1613646947380</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1613646947380</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,7 +112,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first init" />
-    <option name="LAST_COMMIT_MESSAGE" value="first init" />
+    <MESSAGE value="Стилизация форм документа" />
+    <option name="LAST_COMMIT_MESSAGE" value="Стилизация форм документа" />
   </component>
   <component name="WindowStateProjectService">
     <state x="437" y="190" key="EditFileWatcherDialog" timestamp="1613643278056">
@@ -123,10 +124,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1613643279488" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1613644443290">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1613646961692">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1613644443290" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1613646961692" />
     <state x="478" y="121" width="579" height="582" key="find.popup" timestamp="1613643169829">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

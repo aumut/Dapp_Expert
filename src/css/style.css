@@ -20,7 +20,11 @@ body {
   margin-bottom: 30px;
 }
 .dapp-form .add-file {
-  background-color: red;
+  border-radius: 20px;
+  background-color: #E5E5E5;
+  padding: 11px 7px;
+  max-width: 160px;
+  text-align: center;
 }
 .dapp-form .add-file + .form-control[type="file"] {
   display: none !important;
@@ -43,6 +47,9 @@ body {
 .dapp-form .form-select option {
   margin-bottom: 15px;
 }
+.dapp-form .form-select option:last-child {
+  margin-bottom: 0;
+}
 
 .dapp_category + .bootstrap-select {
   width: 100% !important;
@@ -54,6 +61,19 @@ body {
 }
 .dapp_category .dropdown-toggle::after {
   color: #BBBABA;
+}
+
+.social-wrap, .contact-wrap {
+  margin-top: 100px;
+}
+
+.descr-text {
+  height: 150px;
+  resize: none;
+}
+
+.pb-30px {
+  padding-bottom: 30px !important;
 }
 
 /*# sourceMappingURL=style.css.map */

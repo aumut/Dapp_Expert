@@ -4,7 +4,11 @@
     margin-bottom: 30px
 
   .add-file
-    background-color: red
+    border-radius: $form_br_rad
+    background-color: $col_grey
+    padding: 11px 7px
+    max-width: 160px
+    text-align: center
     & + .form-control[type="file"]
       display: none!important
 
@@ -23,6 +27,8 @@
     padding: 26px 20px
     option
       margin-bottom: 15px
+      &:last-child
+        margin-bottom: 0
 
 .dapp_category
   & + .bootstrap-select
@@ -33,3 +39,13 @@
     background-color: #FFFFFF
   .dropdown-toggle::after
     color: $form_br_col
+
+.social-wrap, .contact-wrap
+  margin-top: 100px
+
+.descr-text
+  height: 150px
+  resize: none
+
+.pb-30px
+  padding-bottom: 30px !important

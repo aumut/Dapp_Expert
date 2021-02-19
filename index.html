@@ -43,14 +43,13 @@
                         </div>
                     </div>
                     <div class="col-sm-6 col-xs-12">
-                        <div class="form-group">
+                        <div class="form-group d-flex flex-column h-100 pb-30px">
                             <label for="dapp_lang">Language:</label>
-                            <select id="dapp_lang" class="form-select" multiple aria-label="multiple select example">
-                                <option selected>Open this select menu</option>
-                                <option value="1">English</option>
+                            <select id="dapp_lang" class="form-select flex-grow-1" multiple aria-label="multiple select example">
+                                <option value="1" selected>English</option>
                                 <option value="2">Japanese</option>
                                 <option value="3">Chinese</option>
-                                <option value="3">Russian</option>
+                                <option value="4">Russian</option>
                             </select>
                         </div>
                     </div>
@@ -72,13 +71,14 @@
                         </div>
                     </div>
                     <div class="col-sm-6 col-xs-12">
-                        <label for="dapp_platform">Platform:</label>
-                        <select id="dapp_platform" class="form-select" multiple aria-label="multiple select example">
-                            <option selected>Open this select menu</option>
-                            <option value="1">IOS</option>
-                            <option value="2">Android</option>
-                            <option value="3">WEB</option>
-                        </select>
+                        <div class="form-group d-flex flex-column h-100 pb-30px">
+                            <label for="dapp_platform">Platform:</label>
+                            <select id="dapp_platform" class="form-select flex-grow-1" multiple aria-label="multiple select example">
+                                <option value="1" selected>IOS</option>
+                                <option value="2">Android</option>
+                                <option value="3">WEB</option>
+                            </select>
+                        </div>
                     </div>
                 </div>
                 <div class="row">
@@ -95,7 +95,7 @@
                     <div class="col-12">
                         <div class="form-group">
                             <label for="dapp_full_descr">DAPP’s full description:</label>
-                            <textarea name="dapp_full_descr" id="dapp_full_descr" class="form-control" rows="10"></textarea>
+                            <textarea name="dapp_full_descr" id="dapp_full_descr" class="form-control descr-text" rows="10"></textarea>
                         </div>
                     </div>
                 </div>
@@ -107,7 +107,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row social-wrap">
                     <div class="col-12">Social media</div>
                 </div>
                 <div class="row">
@@ -142,7 +142,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row contact-wrap">
                     <div class="col-12">Contact details</div>
                 </div>
                 <div class="row">
@@ -159,7 +159,7 @@
                     <div class="col-sm-6 col-xs-12">
                         <div class="form-group">
                             <label for="dapp_cont_email">Contact email:</label>
-                            <input type="text" class="form-control" id="dapp_cont_email">
+                            <input type="email" class="form-control" id="dapp_cont_email">
                         </div>
                     </div>
                 </div>
