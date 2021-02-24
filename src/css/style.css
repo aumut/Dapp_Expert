@@ -35,6 +35,7 @@ body {
   padding: 0.45em 0.3em;
   max-width: 6.66em;
   text-align: center;
+  cursor: pointer;
 }
 .dapp-form .form-control:focus, .dapp-form .form-control:active {
   border: 1px solid #0AA5FC;
@@ -66,6 +67,7 @@ body {
   min-height: 2.5365em;
   background-color: #E5E5E5;
   list-style: none;
+  border-color: transparent;
 }
 @media screen and (max-width: 768px) {
   .dapp-form .dapp-val {
@@ -136,6 +138,29 @@ body {
 
 .pb-30px {
   padding-bottom: 1.25em !important;
+}
+
+.file-caption-main {
+  display: none;
+}
+
+.close.fileinput-remove {
+  display: none;
+}
+
+.file-preview, .file-drop-zone {
+  padding: 0;
+  margin: 0;
+}
+
+.file-preview {
+  border: none;
+}
+
+.krajee-default.file-preview-frame {
+  margin: 5px;
+  box-shadow: none;
+  border-radius: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
