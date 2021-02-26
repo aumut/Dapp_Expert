@@ -15,11 +15,15 @@
     & + .form-control[type="file"]
       //display: none!important
 
-  .form-control
+  .form-control, .form-select, .bootstrap-select .dropdown-toggle
     &:focus, &:active
-      border: 1px solid #0AA5FC
-      outline: none
+      border: 1px solid $br_col
+      outline: none !important
       box-shadow: none
+
+  .show>.btn-light.dropdown-toggle
+    background-color: #FFFFFF
+    border-color: $br_col
 
   input.form-control, textarea.form-control, .dapp-val, .descr-text
     border: 1px solid $form_br_col
@@ -34,7 +38,10 @@
     overflow: hidden
     +tablet-down
       padding: $input_pt_mob $input_pl_mob
-
+  .btn
+    line-height: $lineHeight_body
+    +tablet-down
+      font-size: 20px
   .dapp-val
     display: flex
     justify-content: center
@@ -58,8 +65,8 @@
     padding: 0.5em
     justify-content: flex-start
     option, li
-      margin-bottom: 0.625em
-      padding: 0.25em 0.4em
+      margin-bottom: 0.45em
+      padding: 0.3em 0.4em
       &:last-child
         margin-bottom: 0
     option[selected], option.selected

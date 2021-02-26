@@ -37,10 +37,14 @@ body {
   text-align: center;
   cursor: pointer;
 }
-.dapp-form .form-control:focus, .dapp-form .form-control:active {
+.dapp-form .form-control:focus, .dapp-form .form-control:active, .dapp-form .form-select:focus, .dapp-form .form-select:active, .dapp-form .bootstrap-select .dropdown-toggle:focus, .dapp-form .bootstrap-select .dropdown-toggle:active {
   border: 1px solid #0AA5FC;
-  outline: none;
+  outline: none !important;
   box-shadow: none;
+}
+.dapp-form .show > .btn-light.dropdown-toggle {
+  background-color: #FFFFFF;
+  border-color: #0AA5FC;
 }
 .dapp-form input.form-control, .dapp-form textarea.form-control, .dapp-form .dapp-val, .dapp-form .descr-text {
   border: 1px solid #BBBABA;
@@ -57,6 +61,14 @@ body {
 @media screen and (max-width: 768px) {
   .dapp-form input.form-control, .dapp-form textarea.form-control, .dapp-form .dapp-val, .dapp-form .descr-text {
     padding: 0.2em 0.7em;
+  }
+}
+.dapp-form .btn {
+  line-height: 1.15;
+}
+@media screen and (max-width: 768px) {
+  .dapp-form .btn {
+    font-size: 20px;
   }
 }
 .dapp-form .dapp-val {
@@ -85,8 +97,8 @@ body {
   justify-content: flex-start;
 }
 .dapp-form .form-select option, .dapp-form .form-select li, .dapp-form .dapp-val-select option, .dapp-form .dapp-val-select li {
-  margin-bottom: 0.625em;
-  padding: 0.25em 0.4em;
+  margin-bottom: 0.45em;
+  padding: 0.3em 0.4em;
 }
 .dapp-form .form-select option:last-child, .dapp-form .form-select li:last-child, .dapp-form .dapp-val-select option:last-child, .dapp-form .dapp-val-select li:last-child {
   margin-bottom: 0;

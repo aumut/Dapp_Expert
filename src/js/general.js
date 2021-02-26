@@ -1,5 +1,4 @@
 $(function () {
-    console.log("xxxxxxxxxx");
     //init select
     //$('select').selectpicker();
     //$('.selectpicker').on('changed.bs.select', function (e) {
