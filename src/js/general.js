@@ -30,4 +30,7 @@ $(function () {
             'zip': '<i class="fas fa-file-archive text-muted"></i>',
         }
     });
+    $('#dapp_category').change(function (e) {
+        console.log(e.target.value);
+    });
 });

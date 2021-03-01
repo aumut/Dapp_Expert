@@ -18,6 +18,27 @@ body {
   }
 }
 
+.d-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-column {
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.h-100 {
+  height: 100% !important;
+}
+
 .dapp-form {
   padding: 4.3em 2em;
 }
@@ -54,9 +75,11 @@ body {
   color: #000000;
   font-size: 1em;
   line-height: 1.15;
+  height: auto;
   font-weight: 400;
   text-decoration: none;
   overflow: hidden;
+  box-shadow: none;
 }
 @media screen and (max-width: 768px) {
   .dapp-form input.form-control, .dapp-form textarea.form-control, .dapp-form .dapp-val, .dapp-form .descr-text {
@@ -125,6 +148,7 @@ body {
   border: 1px solid #BBBABA;
   background-color: #FFFFFF;
   padding: 0.66em 0.5em;
+  font-size: 1em;
 }
 @media screen and (max-width: 768px) {
   .dapp_category .btn-light {
