@@ -1,5 +1,5 @@
 html {
-  font-size: 24px;
+  font-size: 16px;
 }
 
 body {
@@ -11,11 +11,6 @@ body {
   padding: 0;
   height: 100vh;
   background-color: #FFFFFF;
-}
-@media screen and (max-width: 768px) {
-  body {
-    font-size: 20px;
-  }
 }
 
 .d-flex {
