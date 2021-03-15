@@ -169,6 +169,7 @@ body {
 }
 .dapp-form .descr-text:not(textarea) {
   background-color: #E5E5E5;
+  height: 18.8em;
   overflow-y: scroll !important;
 }
 
@@ -177,8 +178,13 @@ body {
 }
 
 .scrolled.dapp-val {
+  display: inline-block;
   max-height: 2.5365em;
   overflow-y: scroll;
+}
+
+.scrolled.contr-addr {
+  max-height: 8.3em;
 }
 
 .file-caption-main {
