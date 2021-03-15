@@ -163,17 +163,22 @@ body {
   margin-top: 4.2em;
 }
 
-.descr-text {
+.dapp-form .descr-text {
   height: 6.25em;
   resize: none;
 }
-.descr-text:not(textarea) {
+.dapp-form .descr-text:not(textarea) {
   background-color: #E5E5E5;
   overflow-y: scroll !important;
 }
 
 .pb-30px {
   padding-bottom: 1.25em !important;
+}
+
+.scrolled.dapp-val {
+  max-height: 2.5365em;
+  overflow-y: scroll;
 }
 
 .file-caption-main {
