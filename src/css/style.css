@@ -102,7 +102,7 @@ body {
   min-height: 2.5365em;
   background-color: #E5E5E5;
   list-style: none;
-  border-color: transparent;
+  border-color: transparent !important;
 }
 @media screen and (max-width: 768px) {
   .dapp-form .dapp-val {
@@ -184,12 +184,8 @@ body {
 
 .scrolled.dapp-val {
   display: inline-block;
-  max-height: 2.5365em;
+  max-height: 12.5365em;
   overflow-y: scroll;
-}
-
-.scrolled.contr-addr {
-  max-height: 8.3em;
 }
 
 .dapp_category.bootstrap-select > .dropdown-toggle {
