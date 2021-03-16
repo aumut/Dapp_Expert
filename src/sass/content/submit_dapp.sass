@@ -44,6 +44,9 @@
     line-height: $lineHeight_body
     +tablet-down
       font-size: 20px
+  .btn-danger
+    +tablet-down
+      font-size: 16px
   .dapp-val
     display: flex
     justify-content: center
@@ -141,8 +144,14 @@
       width: 22px
       height: 22px
       right: 0px !important
+      margin-right: 0
+      margin-top: 0
+      margin-left: unset
+
+
       @media (max-width: 1200px)
         right: 0px !important
+        left: unset !important
 
     .additional-item
       width: 200px
