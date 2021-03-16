@@ -66,6 +66,7 @@
     line-height: 1.15
     padding: 0.5em
     justify-content: flex-start
+    border: 1px solid $form_br_col
     option, li
       margin-bottom: 0.45em
       padding: 0.3em 0.4em
@@ -109,6 +110,7 @@
 
   &:not(textarea)
     background-color: $col_grey
+    border-color: transparent
     height: 18.8em
     overflow-y: scroll!important
 
@@ -122,3 +124,26 @@
 
 .scrolled.contr-addr
   max-height: 8.3em
+
+
+.dapp_category.bootstrap-select>.dropdown-toggle
+  border: 1px solid $form_br_col
+  border-radius: $form_br_rad
+  padding: $input_pt $input_pl
+
+.dapp-form
+  .additional-image-list
+    display: flex
+    flex-wrap: wrap
+
+    .btn-delete-additional-image
+      border-radius: 2px
+      width: 22px
+      height: 22px
+      right: 0px !important
+      @media (max-width: 1200px)
+        right: 0px !important
+
+    .additional-item
+      width: 200px
+      margin-right: 20px

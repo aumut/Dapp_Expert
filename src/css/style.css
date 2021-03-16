@@ -113,6 +113,7 @@ body {
   line-height: 1.15;
   padding: 0.5em;
   justify-content: flex-start;
+  border: 1px solid #BBBABA;
 }
 .dapp-form .form-select option, .dapp-form .form-select li, .dapp-form .dapp-val-select option, .dapp-form .dapp-val-select li {
   margin-bottom: 0.45em;
@@ -164,6 +165,7 @@ body {
 }
 .dapp-form .descr-text:not(textarea) {
   background-color: #E5E5E5;
+  border-color: transparent;
   height: 18.8em;
   overflow-y: scroll !important;
 }
@@ -180,6 +182,32 @@ body {
 
 .scrolled.contr-addr {
   max-height: 8.3em;
+}
+
+.dapp_category.bootstrap-select > .dropdown-toggle {
+  border: 1px solid #BBBABA;
+  border-radius: 0.83em;
+  padding: 0.66em 0.5em;
+}
+
+.dapp-form .additional-image-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.dapp-form .additional-image-list .btn-delete-additional-image {
+  border-radius: 2px;
+  width: 22px;
+  height: 22px;
+  right: 0px !important;
+}
+@media (max-width: 1200px) {
+  .dapp-form .additional-image-list .btn-delete-additional-image {
+    right: 0px !important;
+  }
+}
+.dapp-form .additional-image-list .additional-item {
+  width: 200px;
+  margin-right: 20px;
 }
 
 .file-caption-main {
