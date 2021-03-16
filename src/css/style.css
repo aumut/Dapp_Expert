@@ -144,6 +144,9 @@ body {
 .dapp_category + .bootstrap-select {
   width: 100% !important;
 }
+.dapp_category + .bootstrap-select:focus .dropdown-toggle, .dapp_category + .bootstrap-select:active .dropdown-toggle {
+  border: 1px solid #0AA5FC;
+}
 .dapp_category .btn-light {
   border-radius: 0.83em;
   border: 1px solid #BBBABA;

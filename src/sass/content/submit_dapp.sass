@@ -93,6 +93,10 @@
 .dapp_category
   & + .bootstrap-select
     width: 100% !important
+    &:focus, &:active
+      .dropdown-toggle
+        border: 1px solid #0AA5FC
+
   .btn-light
     border-radius: $form_br_rad
     border: 1px solid $form_br_col
