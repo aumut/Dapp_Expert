@@ -10,12 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="020d89c4-15be-4663-9885-a7d09dd47bda" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/content/submit_dapp.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/content/submit_dapp.sass" afterDir="false" />
-    </list>
+    <list default="true" id="020d89c4-15be-4663-9885-a7d09dd47bda" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -149,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615890327299</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Высота поля &quot;DAPP’s Short Description:&quot;">
+      <created>1615891624260</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1615891624260</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +178,8 @@
     <MESSAGE value="Исправления по замечаниям" />
     <MESSAGE value="Обновление стилей" />
     <MESSAGE value="Фокус на селект" />
-    <option name="LAST_COMMIT_MESSAGE" value="Фокус на селект" />
+    <MESSAGE value="Высота поля &quot;DAPP’s Short Description:&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Высота поля &quot;DAPP’s Short Description:&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="46" y="54" width="1350" height="638" key="DiffContextDialog" timestamp="1615783949776">

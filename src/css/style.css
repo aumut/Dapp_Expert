@@ -45,6 +45,12 @@ body {
 .dapp-form .form-group, .dapp-form .dapp-group {
   margin-bottom: 1.25em;
 }
+.dapp-form .error {
+  font-size: 0.8em;
+  font-style: italic;
+  font-weight: 200;
+  color: red;
+}
 .dapp-form .add-file {
   border-radius: 0.83em;
   background-color: #E5E5E5;
