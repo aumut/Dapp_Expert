@@ -54,18 +54,18 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../kindergarden_wp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\umut\work\freelance\Dapp_Expert\src\fonts\fontawesome" />
-      <recent name="C:\Users\umut\work\freelance\Dapp_Expert" />
-      <recent name="C:\Users\umut\work\freelance\Dapp_Expert\src\sass" />
-      <recent name="C:\Users\umut\work\freelance\Dapp_Expert\src\fonts" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\umut\work\freelance\Dapp_Expert\src\css" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\umut\work\freelance\Dapp_Expert" />
+      <recent name="C:\Users\umut\work\freelance\Dapp_Expert\src\fonts\fontawesome" />
+      <recent name="C:\Users\umut\work\freelance\Dapp_Expert\src\sass" />
+      <recent name="C:\Users\umut\work\freelance\Dapp_Expert\src\fonts" />
       <recent name="C:\Users\umut\work\freelance\Dapp_Expert\src\css" />
     </key>
   </component>
@@ -106,6 +106,7 @@
       <workItem from="1615267344116" duration="1349000" />
       <workItem from="1615546360089" duration="665000" />
       <workItem from="1615782106093" duration="1829000" />
+      <workItem from="1615964805849" duration="997000" />
     </task>
     <task id="LOCAL-00001" summary="first init">
       <created>1613638436271</created>
@@ -156,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615891624260</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Обновление стилей">
+      <created>1615952446233</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1615952446233</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,16 +189,16 @@
     <MESSAGE value="file upload" />
     <MESSAGE value="обновление стилей селекта" />
     <MESSAGE value="Исправления по замечаниям" />
-    <MESSAGE value="Обновление стилей" />
     <MESSAGE value="Фокус на селект" />
     <MESSAGE value="Высота поля &quot;DAPP’s Short Description:&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Высота поля &quot;DAPP’s Short Description:&quot;" />
+    <MESSAGE value="Обновление стилей" />
+    <option name="LAST_COMMIT_MESSAGE" value="Обновление стилей" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="46" y="54" width="1350" height="638" key="DiffContextDialog" timestamp="1615892474130">
+    <state x="46" y="54" width="1350" height="638" key="DiffContextDialog" timestamp="1615961639496">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="46" y="54" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1615892474130" />
+    <state x="46" y="54" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1615961639496" />
     <state x="437" y="190" key="EditFileWatcherDialog" timestamp="1613643278056">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -207,10 +215,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1614678055978" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1615891744524">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1615952465312">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1615891744524" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1615952465312" />
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1614146145618">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

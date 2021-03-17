@@ -211,14 +211,27 @@
   border: none
   border-right: 1px solid white
   background-color: #F5F5F5
+  overflow: hidden
 
 .table-cell
   &.first
     width: 5%
 
-  &.second, &.third
+  &.second
     width: 12.5%
     word-break: break-all
+
+  &.third
+    width: 68%
+    word-break: break-all
+    white-space: nowrap
+    text-overflow: ellipsis
+    +laptop-down1
+      width: 60%
+    +laptop-down
+      width: 35%
+    +tablet-down
+      width: 30%
 
   &.forth
     width: 50%
@@ -226,6 +239,9 @@
 
   &.fifth, &.sixth
     width: 10%
+
+  &.seventh
+    width: 125px
 
   &.single
     align-items: center
@@ -254,3 +270,4 @@
   align-items: flex-start
   margin-top: 20px
   width: 100%
+

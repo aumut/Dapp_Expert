@@ -259,14 +259,36 @@ body {
   border: none;
   border-right: 1px solid white;
   background-color: #F5F5F5;
+  overflow: hidden;
 }
 
 .table-cell.first {
   width: 5%;
 }
-.table-cell.second, .table-cell.third {
+.table-cell.second {
   width: 12.5%;
   word-break: break-all;
+}
+.table-cell.third {
+  width: 68%;
+  word-break: break-all;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+@media screen and (max-width: 1366px) {
+  .table-cell.third {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .table-cell.third {
+    width: 35%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .table-cell.third {
+    width: 30%;
+  }
 }
 .table-cell.forth {
   width: 50%;
@@ -274,6 +296,9 @@ body {
 }
 .table-cell.fifth, .table-cell.sixth {
   width: 10%;
+}
+.table-cell.seventh {
+  width: 125px;
 }
 .table-cell.single {
   align-items: center;
