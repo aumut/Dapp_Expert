@@ -262,6 +262,9 @@ body {
   overflow: hidden;
 }
 
+.table-cell {
+  overflow: hidden;
+}
 .table-cell.first {
   width: 5%;
 }
@@ -274,11 +277,10 @@ body {
   word-break: break-all;
   white-space: nowrap;
   text-overflow: ellipsis;
-  overflow: hidden;
 }
 @media screen and (max-width: 1366px) {
   .table-cell.third {
-    width: 60%;
+    width: 50%;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -292,7 +294,7 @@ body {
   }
 }
 .table-cell.forth {
-  width: 50%;
+  width: 30%;
   word-break: break-all;
 }
 .table-cell.fifth, .table-cell.sixth {
