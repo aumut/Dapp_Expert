@@ -10,7 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="020d89c4-15be-4663-9885-a7d09dd47bda" name="Default Changelist" comment="" />
+    <list default="true" id="020d89c4-15be-4663-9885-a7d09dd47bda" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/content/submit_dapp.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/content/submit_dapp.sass" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -182,10 +187,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Высота поля &quot;DAPP’s Short Description:&quot;" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="46" y="54" width="1350" height="638" key="DiffContextDialog" timestamp="1615783949776">
+    <state x="46" y="54" width="1350" height="638" key="DiffContextDialog" timestamp="1615892474130">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="46" y="54" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1615783949776" />
+    <state x="46" y="54" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1615892474130" />
     <state x="437" y="190" key="EditFileWatcherDialog" timestamp="1613643278056">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -202,10 +207,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1614678055978" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1615890490679">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1615891744524">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1615890490679" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1615891744524" />
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1614146145618">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

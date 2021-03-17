@@ -29,7 +29,7 @@
     background-color: #FFFFFF
     border-color: $br_col
 
-  input.form-control, textarea.form-control, .dapp-val, .descr-text
+  input.form-control, textarea.form-control, .dapp-val, .descr-text, .form-select, .dapp-val-select,.dapp_category.bootstrap-select > .dropdown-toggle
     border: 1px solid $form_br_col
     border-radius: $form_br_rad
     padding: $input_pt $input_pl
@@ -46,7 +46,7 @@
       padding: $input_pt_mob $input_pl_mob
   .btn
     line-height: $lineHeight_body
-    +tablet-down
+    //+tablet-down
       font-size: 20px
   .btn-danger
     +tablet-down
@@ -68,10 +68,10 @@
     label
       margin-bottom: 10px
   .form-select, .dapp-val-select
-    border-radius: $form_br_rad
-    font-size: $form_select_fs
-    line-height: 1.15
-    padding: 0.5em
+    //border-radius: $form_br_rad
+    //font-size: $form_select_fs
+    //line-height: 1.15
+    //padding: 0.5em
     justify-content: flex-start
     border: 1px solid $form_br_col
     option, li
@@ -85,6 +85,7 @@
 
 .bootstrap-select
   .dropdown-toggle
+    font-size: 1em
     .filter-option-inner-inner
       font-style: italic
 
@@ -137,7 +138,7 @@
   max-height: 8.3em
 
 
-.dapp_category.bootstrap-select>.dropdown-toggle
+//.dapp_category.bootstrap-select>.dropdown-toggle
   border: 1px solid $form_br_col
   border-radius: $form_br_rad
   padding: $input_pt $input_pl
@@ -164,3 +165,92 @@
     .additional-item
       width: 200px
       margin-right: 20px
+
+  &.container
+    display: flex
+    flex-direction: column
+    justify-content: flex-start
+    align-items: flex-start
+    padding: 0 20px
+    max-width: 100% !important
+
+  form
+    width: 100%
+
+  .bar
+    display: flex
+    flex-direction: row
+    justify-content: flex-start
+    align-items: center
+    padding: 10px 0
+    width: 100%
+
+.container .jumbotron
+  width: 100% ! important
+
+.table
+  display: flex
+  flex-direction: column
+  justify-content: flex-start
+  align-items: flex-start
+  border: none
+  width: 100%
+
+  > tbody
+    width: 100%
+
+  .table-head, .table-content
+    display: flex
+    border: none
+    border-bottom: 1px solid white
+    color: black
+    width: 100%
+
+.table-head .table-cell
+  display: flex
+  border: none
+  border-right: 1px solid white
+  background-color: #F5F5F5
+
+.table-cell
+  &.first
+    width: 5%
+
+  &.second, &.third
+    width: 12.5%
+    word-break: break-all
+
+  &.forth
+    width: 50%
+    word-break: break-all
+
+  &.fifth, &.sixth
+    width: 10%
+
+  &.single
+    align-items: center
+    justify-content: center
+    font-weight: bold
+
+.table .table-content
+  background-color: white
+  border: none
+  border-bottom: 0.5px solid #F5F5F5
+
+.commands-bar
+  display: flex
+  flex-direction: row
+  justify-content: flex-start
+  align-items: flex-start
+  width: 100%
+
+  .btn
+    margin-right: 10px
+
+.moderator-form
+  display: none
+  flex-direction: column
+  justify-content: flex-start
+  align-items: flex-start
+  margin-top: 20px
+  width: 100%

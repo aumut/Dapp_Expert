@@ -68,7 +68,7 @@ body {
   background-color: #FFFFFF;
   border-color: #0AA5FC;
 }
-.dapp-form input.form-control, .dapp-form textarea.form-control, .dapp-form .dapp-val, .dapp-form .descr-text {
+.dapp-form input.form-control, .dapp-form textarea.form-control, .dapp-form .dapp-val, .dapp-form .descr-text, .dapp-form .form-select, .dapp-form .dapp-val-select, .dapp-form .dapp_category.bootstrap-select > .dropdown-toggle {
   border: 1px solid #BBBABA;
   border-radius: 0.83em;
   padding: 0.66em 0.5em;
@@ -83,17 +83,12 @@ body {
   box-shadow: none;
 }
 @media screen and (max-width: 768px) {
-  .dapp-form input.form-control, .dapp-form textarea.form-control, .dapp-form .dapp-val, .dapp-form .descr-text {
+  .dapp-form input.form-control, .dapp-form textarea.form-control, .dapp-form .dapp-val, .dapp-form .descr-text, .dapp-form .form-select, .dapp-form .dapp-val-select, .dapp-form .dapp_category.bootstrap-select > .dropdown-toggle {
     padding: 0.2em 0.7em;
   }
 }
 .dapp-form .btn {
   line-height: 1.15;
-}
-@media screen and (max-width: 768px) {
-  .dapp-form .btn {
-    font-size: 20px;
-  }
 }
 @media screen and (max-width: 768px) {
   .dapp-form .btn-danger {
@@ -119,10 +114,6 @@ body {
   margin-bottom: 10px;
 }
 .dapp-form .form-select, .dapp-form .dapp-val-select {
-  border-radius: 0.83em;
-  font-size: 0.83em;
-  line-height: 1.15;
-  padding: 0.5em;
   justify-content: flex-start;
   border: 1px solid #BBBABA;
 }
@@ -137,6 +128,9 @@ body {
   background-color: rgba(10, 165, 252, 0.3);
 }
 
+.bootstrap-select .dropdown-toggle {
+  font-size: 1em;
+}
 .bootstrap-select .dropdown-toggle .filter-option-inner-inner {
   font-style: italic;
 }
@@ -194,12 +188,6 @@ body {
   overflow-y: scroll;
 }
 
-.dapp_category.bootstrap-select > .dropdown-toggle {
-  border: 1px solid #BBBABA;
-  border-radius: 0.83em;
-  padding: 0.66em 0.5em;
-}
-
 .dapp-form .additional-image-list {
   display: flex;
   flex-wrap: wrap;
@@ -222,6 +210,101 @@ body {
 .dapp-form .additional-image-list .additional-item {
   width: 200px;
   margin-right: 20px;
+}
+.dapp-form.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0 20px;
+  max-width: 100% !important;
+}
+.dapp-form form {
+  width: 100%;
+}
+.dapp-form .bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.container .jumbotron {
+  width: 100% !important;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border: none;
+  width: 100%;
+}
+.table > tbody {
+  width: 100%;
+}
+.table .table-head, .table .table-content {
+  display: flex;
+  border: none;
+  border-bottom: 1px solid white;
+  color: black;
+  width: 100%;
+}
+
+.table-head .table-cell {
+  display: flex;
+  border: none;
+  border-right: 1px solid white;
+  background-color: #F5F5F5;
+}
+
+.table-cell.first {
+  width: 5%;
+}
+.table-cell.second, .table-cell.third {
+  width: 12.5%;
+  word-break: break-all;
+}
+.table-cell.forth {
+  width: 50%;
+  word-break: break-all;
+}
+.table-cell.fifth, .table-cell.sixth {
+  width: 10%;
+}
+.table-cell.single {
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.table .table-content {
+  background-color: white;
+  border: none;
+  border-bottom: 0.5px solid #F5F5F5;
+}
+
+.commands-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+.commands-bar .btn {
+  margin-right: 10px;
+}
+
+.moderator-form {
+  display: none;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 20px;
+  width: 100%;
 }
 
 .file-caption-main {
