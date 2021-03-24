@@ -95,6 +95,12 @@ body {
     font-size: 16px;
   }
 }
+.dapp-form .btn.pull-right {
+  margin-right: 10px;
+}
+.dapp-form .btn.pull-right:first-child {
+  margin-right: 0;
+}
 .dapp-form .dapp-val {
   display: flex;
   justify-content: center;
@@ -126,6 +132,9 @@ body {
 }
 .dapp-form .form-select option[selected], .dapp-form .form-select option.selected, .dapp-form .dapp-val-select option[selected], .dapp-form .dapp-val-select option.selected {
   background-color: rgba(10, 165, 252, 0.3);
+}
+.dapp-form .form-select {
+  overflow-y: scroll;
 }
 
 .bootstrap-select .dropdown-toggle {
