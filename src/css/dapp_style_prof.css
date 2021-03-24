@@ -98,9 +98,6 @@ body {
 .dapp-form .btn.pull-right {
   margin-right: 10px;
 }
-.dapp-form .btn.pull-right:first-child {
-  margin-right: 0;
-}
 .dapp-form .dapp-val {
   display: flex;
   justify-content: center;
