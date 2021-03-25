@@ -44,6 +44,7 @@ body {
 }
 .dapp-form .form-group, .dapp-form .dapp-group {
   margin-bottom: 1.25em;
+  overflow: hidden;
 }
 .dapp-form .error {
   font-size: 0.8em;
@@ -343,6 +344,9 @@ body {
   align-items: flex-start;
   margin-top: 20px;
   width: 100%;
+}
+.moderator-form textarea.form-control {
+  margin-bottom: 1.25em;
 }
 
 .file-caption-main {
